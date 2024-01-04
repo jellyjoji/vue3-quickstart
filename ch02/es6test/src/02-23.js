@@ -1,5 +1,8 @@
+// ...전개연산자
 let obj1 = { name:"박문수", age:29 };
+// 얕은 복사
 let obj2 = obj1;        //shallow copy! obj1, obj2는 동일한 객체를 참조
+// 전개연산자를 사용한 복사 : 내부 속성값은 같지만 서로 다른 객체
 let obj3 = { ...obj1 };    //객체 내부의 값은 복사하지만 obj3, obj1은 다른 객체
 let obj4 = { ...obj1, email:"mspark@gmail.com" };  //새로운 속성 추가
 

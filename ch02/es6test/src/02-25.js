@@ -1,3 +1,4 @@
+// Proxy 객체는 배열도 래핑할수있다.
 var arr = [10,20,30];
 
 const proxy = new Proxy(arr, {
